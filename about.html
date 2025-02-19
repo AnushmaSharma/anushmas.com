@@ -4,31 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me | Anushma Sharma</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>About Me</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Anushma Sharma</h1>
+            <p>Data Enthusiast | SQL | Python | Tableau | Excel</p>
+            <p>📧 <a href="mailto:mona.anushma@gmail.com">mona.anushma@gmail.com</a></p>
+        </div>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
     <section class="about">
-        <img src="images/profile.jpg" alt="Anushma Sharma">
-        <h2>Hello, I'm Anushma!</h2>
-        <p>I'm a passionate Data Analyst skilled in SQL, Python, and Data Visualization. With a background in Electronics & Communication Engineering and experience in project coordination, I bring a strong analytical mindset to solving business challenges with data.</p>
-        <p>Currently, I'm looking for opportunities in data analytics, business intelligence, and data science.</p>
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="profile-img">
+                <img src="assets/profile.jpg" alt="Anushma Sharma" class="profile-pic">
+            </div>
+            <p>I am a Data Analyst transitioning from technical design, skilled in SQL, Python, Tableau, and Excel. With experience in trend analysis, customer segmentation, and creating interactive dashboards, I have developed a passion for delivering actionable insights that drive data-informed decisions. I am seeking a Data Analyst role in the financial services sector where I can apply my skills to uncover patterns, improve efficiency, and support strategic decision-making. With over four years of experience in the solar power and engineering industries, I bring a strong problem-solving mindset, an analytical approach to data, and a commitment to continuous learning in the field of data analytics.</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Anushma Sharma | Data Analytics Portfolio</p>
+        <p>Connect with me:</p>
+        <a href="https://github.com/AnushmaSharma" target="_blank">
+            <img src="assets/github.png" alt="GitHub" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/anushma-sharma/" target="_blank">
+            <img src="assets/linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://public.tableau.com/app/profile/anushma.sharma/vizzes" target="_blank">
+            <img src="assets/tableau.png" alt="Tableau" class="social-icon">
+        </a>
     </footer>
 </body>
 </html>
