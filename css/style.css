@@ -6355,7 +6355,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #4b887e !important;
+  background-color: #4b6888 !important;
+  background-image: linear-gradient(90deg, #4b6888, #0ca990);
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9525,7 +9526,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #0BCEAF !important;
+  color: #0ca990 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
